@@ -1,0 +1,59 @@
+.letterInput{
+	font-size:40px;
+	text-align: center;
+}
+
+body{
+	padding: 20px;
+	
+	background: url(../images/bg.jpg)  no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+	
+}
+
+#main{
+	background-color: white;
+	width: 1024px;
+	height: 80%;
+	padding: 30px;
+	border-radius: 55px;
+	border: solid #AAAAAA 1px;
+}
+
+#scrumble{
+	font-size: 100px; 
+	padding: 80px;
+	display: block;
+}
+
+
+#score{
+	font-size: 40px; 
+	float: left;
+	padding-left:30px;
+}
+
+#timer{
+	width: 90%;
+	padding: 50px;
+	
+}
+
+#timerTable{
+	width: 90%;
+	height: 40px;
+	border: solid 1px #DDDDDD;
+	border-radius: 5px;
+}
+
+#image{
+	float: left;
+	padding-left: 100px;
+}
+
+#inputs{
+	display: block;
+}

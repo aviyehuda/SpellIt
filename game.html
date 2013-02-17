@@ -1,0 +1,42 @@
+<html>
+<head>
+<LINK REL="stylesheet" TYPE="text/css" HREF="styles/game.css" >
+
+
+<script src="scripts/game.js"></script>
+<script src="scripts/words.js"></script>
+
+</head>
+<body onload="runTimer();nextWord();">
+<center>
+<div id="main" >
+	<div id="score">
+
+	</div>
+	<div id="timer">
+		<div style="display:inline; float:left;font-size: 28px" >Time:</div><table id="timerTable"  ><tr><td id="timerLeft" width="1%" >&nbsp;</td><td>&nbsp;</td></tr></table>
+	</div>
+	
+	<div id="image">
+		<img height="250" id="wordImage" >
+	</div>
+	<div id="scrumble">
+	
+	</div>
+	<div id="inputs">
+		
+		<input class="letterInput"   onkeyup="processWord(this, event, 0)" id="inp0" size=1 maxlength=1 >
+		<input class="letterInput"   onkeyup="processWord(this, event, 1)" id="inp1" size=1 maxlength=1 >
+		<input class="letterInput"   onkeyup="processWord(this, event, 2)" id="inp2" size=1 maxlength=1 >
+		<input class="letterInput"   onkeyup="processWord(this, event, 3)" id="inp3" size=1 maxlength=1 >
+		<input class="letterInput"   onkeyup="processWord(this, event, 4)" id="inp4" size=1 maxlength=1 >
+		<input class="letterInput"   onkeyup="processWord(this, event, 5)" id="inp5" size=1 maxlength=1 >
+		<img style="padding-right: 20px" width="50px" src="images/cancel.png" id="badImg" >
+		<img style="padding-right: 20px" width="50px" src="images/ok.png" id="okImg" >
+	
+	</div>
+</div>
+
+</center>
+</body>
+</html>
